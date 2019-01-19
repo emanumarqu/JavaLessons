@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FunctionPractive",
+            "request": "launch",
+            "mainClass": "FunctionPractive"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ArrayPractive",
+            "request": "launch",
+            "mainClass": "ArrayPractive"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Main",
+            "request": "launch",
+            "mainClass": "Main"
+        }
+    ]
+}
