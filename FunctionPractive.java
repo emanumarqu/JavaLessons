@@ -7,6 +7,20 @@ public class FunctionPractive {
        result = makeSentence("Saul");
        System.out.println(result);
     }
+
+    public static void age(int a)
+    {
+        if (a < 0){
+            System.out.println("Are you sure?");
+        }
+        else if (a < 18) {
+            System.out.println(a + ", you are a student!");
+        }
+        else {
+            System.out.println(a + ", you are a mentor!");
+        }
+    }
+
     // String function     
     public static String makeSentence(String name)
     {
@@ -23,6 +37,4 @@ public class FunctionPractive {
         area = l * w;
         System.out.println("Area: " + area);
     }
-
-    
 }
